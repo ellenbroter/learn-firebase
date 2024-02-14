@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../src/css/style.css">
+		<title>Learn Firebase</title>
+	</head>
+	<body>
+		<h1>Firebase</h1>
+		<form class="add-trainers-form">
+			<div>
+				<label for="firstname">Firstname:</label>
+				<input type="text" name="firstname" class="firstname">
+			</div>
+			<div>
+				<label for="lastname">Lastname:</label>
+				<input type="text" name="lastname" class="lastname">
+			</div>
+			<div>
+				<label for="birthyear">Birthyear:</label>
+				<input type="text" name="birthyear" class="birthyear">
+			</div>
+			<button type="submit" class="add-trainers-button">Submit</button>
+		</form>
+
+		<form class="delete-trainer-form">
+			<div>
+				<label for="deleteID">Delete ID</label>
+				<input type="text" name="deleteID" class="delete-ID">
+			</div>
+			
+			<button class="delete-trainer-button">Delete Document</button>
+		</form>
+		<form class="update-trainer-form">
+			<div>
+				<label for="updateID">Update ID</label>
+				<input type="text" name="updateID" class="update-ID">
+			</div>	
+				<button class="update-trainer-button">Update Document</button>
+		</form>
+		<script src="./bundle.js"></script>
+	</body>
+</html>
